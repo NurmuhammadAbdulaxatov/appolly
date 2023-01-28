@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  background-image: url(./Images/bcg-img.png);
+
+  .header-top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    .h-links {
+      width: 400px;
+      display: flex;
+      justify-content: space-between;
+      color: white;
+    }
+
+    .f-a-s {
+      color: white;
+      width: 120px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  nav {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+
+    .nav-1 {
+      width: 400px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      margin-left: 50px;
+    }
+
+    .nav-2 {
+      width: 470px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+
+      .btn {
+        color: white;
+        background-color: #5956e9;
+        padding: 10px;
+        border-radius: 7px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          box-shadow: 0 0 20px #5956e9;
+        }
+      }
+    }
+
+    .logo {
+      padding: 35px 20px;
+      background-color: white;
+      box-shadow: 0 0 10px gray;
+      border-radius: 6px;
+      position: absolute;
+      transform: translate(530px, -5px);
+      cursor: pointer;
+    }
+  }
+
+  .showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+
+    .portion {
+      .ramka {
+        position: absolute;
+        z-index: 1;
+        transform: translate(100px, -60px);
+      }
+
+      .app {
+        background-color: white;
+        padding: 10px;
+        width: 550px;
+        z-index: 99;
+        margin-right: 100px;
+        position: relative;
+
+        h1 {
+          font-weight: 700;
+          font-size: 48.83px;
+          line-height: 63px;
+          text-transform: uppercase;
+          color: #5956e9;
+          padding-bottom: 20px;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          padding-bottom: 40px;
+        }
+
+        strong {
+          font-weight: 600;
+          font-size: 25px;
+          line-height: 38px;
+          text-transform: uppercase;
+        }
+
+        img {
+          padding-top: 15px;
+          padding-bottom: 25px;
+        }
+      }
+    }
+  }
+}
+
+// Showcase headerri ichidi shunaqa bop qoli 1 safar😀
+
+#about {
+  margin-top: 100px;
+
+  nav {
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    box-shadow: 0 0 10px rgb(188, 188, 188);
+
+    .nav-1 {
+      width: 400px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+      margin-left: 50px;
+    }
+
+    .nav-2 {
+      width: 470px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 30px;
+
+      .btn {
+        color: white;
+        background-color: #5956e9;
+        padding: 10px;
+        border-radius: 7px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover {
+          box-shadow: 0 0 20px #5956e9;
+        }
+      }
+    }
+
+    .logo {
+      padding: 35px 20px;
+      background-color: white;
+      box-shadow: 0 0 10px gray;
+      border-radius: 6px;
+      position: absolute;
+      transform: translate(530px, -5px);
+      cursor: pointer;
+    }
+  }
+  h2 {
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 47px;
+    text-align: center;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+  }
+
+  .showcase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+
+    .portion {
+      flex: 1;
+
+      .design {
+        padding: 15px;
+        border-radius: 7px;
+        box-shadow: 0 0 10px rgb(203, 203, 203);
+        margin-bottom: 35px;
+
+        .nothing {
+          display: flex;
+          align-items: center;
+
+          h3 {
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            margin-left: 12px;
+          }
+
+          .check {
+            color: #5956e9;
+            font-size: 20px;
+          }
+        }
+
+        p {
+          text-align: start;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          margin-left: 30px;
+          width: 480px;
+          height: 70px;
+          color: gray;
+        }
+      }
+    }
+  }
+}
